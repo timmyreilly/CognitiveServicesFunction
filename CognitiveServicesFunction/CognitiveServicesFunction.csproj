@@ -67,6 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="BlobTriggerCSharp\function.json" />
+    <Content Include="BlobTriggerCSharp\readme.md" />
+    <Content Include="BlobTriggerCSharp\run.csx" />
+    <Content Include="BlobTriggerCSharp\sample.dat" />
+    <Content Include="appsettings.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,6 +84,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Function.Library\Function.Library.csproj">
+      <Project>{62e6f6a3-d1c9-4f87-9fc1-51ce63c0789f}</Project>
+      <Name>Function.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
