@@ -21,4 +21,4 @@ Now that we have Cosmos DB we need to update our appsettings.json
 }
 ```
 
-This file should be placed adjacent to BlobTriggerCSharp
+This file should be placed adjacent to the BlobTriggerCSharp directory
